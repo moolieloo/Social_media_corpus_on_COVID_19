@@ -23,7 +23,7 @@ There are also two bar graphs on the homepage that illustrate the breakdown of o
 
 **b. Text:**
 
-Following the word clouds are a brief description of the corpus and annotations, as well as corpus statistics for both sources, Twitter and Weibo. Additional links to the [Annotation Guidelines](https://github.ubc.ca/MDS-CL-2019-20/Social_Media_Corpus_on_COVID-19/blob/master/Corpus/Annotation_Guidelines.md) and [Corpus README](https://github.ubc.ca/MDS-CL-2019-20/Social_Media_Corpus_on_COVID-19/blob/master/Corpus/README.md) are provided in case users want to learn more.
+Following the word clouds are a brief description of the corpus and annotations, as well as corpus statistics for both sources, Twitter and Weibo. Additional links to the [Annotation Guidelines](https://github.com/moolieloo/Social_media_corpus_on_COVID_19/blob/master/Corpus/Annotation_Guidelines.md) and [Corpus README](https://github.com/moolieloo/Social_media_corpus_on_COVID_19/blob/master/Corpus/README.md) are provided in case users want to learn more.
 
 ![](https://raw.githubusercontent.com/moolieloo/Social_media_corpus_on_COVID_19/master/Image/corpus_desc2.png)
 
