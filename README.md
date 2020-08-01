@@ -19,7 +19,7 @@ The following files need to be downloaded from the repository and saved to the s
 
 It is important to save them all in the same `../user_dir` directory!
 
-![](https://github.ubc.ca/MDS-CL-2019-20/Social_Media_Corpus_on_COVID-19/blob/master/Image/make_dirs_demo.png)
+![](https://raw.githubusercontent.com/moolieloo/Social_media_corpus_on_COVID_19/master/Image/make_dirs_demo.png)
 
 **Dependent packages**
 
@@ -36,11 +36,11 @@ Some dependent packages should already be installed on your computer (e.g., nltk
 
 Navigate to the `../user_dir` directory in terminal or command-line interface and run the code `python keyword_search_backend.py`. Wait until you see "Ready for query" as shown; this means the web interface is ready to load in the browser!
 
-![](https://raw.github.ubc.ca/MDS-CL-2019-20/Social_Media_Corpus_on_COVID-19/master/Image/execute_demo.png)
+![](https://raw.githubusercontent.com/moolieloo/Social_media_corpus_on_COVID_19/master/Image/execute_demo.png)
 
 Now, open a browser in your system (preferably Chrome) and paste `localhost:9999` in the address bar. You will be able to see the webpage like below:
  
-![](https://raw.github.ubc.ca/MDS-CL-2019-20/Social_Media_Corpus_on_COVID-19/master/Image/webpage_demo.png)
+![](https://raw.githubusercontent.com/moolieloo/Social_media_corpus_on_COVID_19/master/Image/webpage_demo.png)
 
 <u>Troubleshooting</u>
 
@@ -52,7 +52,7 @@ If you encounter a problem with the port, try changing the port number `9999` in
 
 - Enter the keyword in English or Chinese in the `text box` and press the `Submit` button to see a list of returned posts and a word cloud that matches the query.
 
-![](https://raw.github.ubc.ca/MDS-CL-2019-20/Social_Media_Corpus_on_COVID-19/master/Image/keyword_demo.png)
+![](https://raw.githubusercontent.com/moolieloo/Social_media_corpus_on_COVID_19/master/Image/keyword_demo.png)
 
 <u>Please note: </u>
 
@@ -74,7 +74,7 @@ If you encounter a problem with the port, try changing the port number `9999` in
 
 - First, select the annotation category to query in the `drop-down` menu. Then, select the language and click `Submit` to see social media posts that matches the query. If more than 10 posts were found, click the `Submit` button again to see a different batch of posts.
 
-![](https://raw.github.ubc.ca/MDS-CL-2019-20/Social_Media_Corpus_on_COVID-19/master/Image/dropdown_demo.png)
+![](https://raw.githubusercontent.com/moolieloo/Social_media_corpus_on_COVID_19/master/Image/dropdown_demo.png)
 
 <u>Please note: </u>
 
