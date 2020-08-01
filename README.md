@@ -52,7 +52,7 @@ If you encounter a problem with the port, try changing the port number `9999` in
 
 - Enter the keyword in English or Chinese in the `text box` and press the `Submit` button to see a list of returned posts and a word cloud that matches the query.
 
-![](https://raw.githubusercontent.com/moolieloo/Social_media_corpus_on_COVID_19/Image/keyword_demo.png)
+![](https://raw.githubusercontent.com/moolieloo/Social_media_corpus_on_COVID_19/master/Image/keyword_demo.png)
 
 <u>Please note: </u>
 
@@ -74,7 +74,7 @@ If you encounter a problem with the port, try changing the port number `9999` in
 
 - First, select the annotation category to query in the `drop-down` menu. Then, select the language and click `Submit` to see social media posts that matches the query. If more than 10 posts were found, click the `Submit` button again to see a different batch of posts.
 
-![](https://raw.githubusercontent.com/moolieloo/Social_media_corpus_on_COVID_19/Image/dropdown_demo.png)
+![](https://raw.githubusercontent.com/moolieloo/Social_media_corpus_on_COVID_19/master/Image/dropdown_demo.png)
 
 <u>Please note: </u>
 
