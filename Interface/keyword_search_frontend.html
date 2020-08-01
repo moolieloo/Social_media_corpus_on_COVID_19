@@ -1,0 +1,87 @@
+<html>
+<head> 
+<script language="javascript" type="text/javascript" src="keyword_search_frontend.js"> </script>
+</head>
+<link rel="stylesheet" type="text/css" href="keyword_search_frontend.css">
+<body>
+  <div class="sidebar">
+    <h4>Search by keyword</h4>
+  <form id="form" action="/" onsubmit="return false;">
+  <input type="text" id="text" name="keyword"> <br>                                                           
+   <button type="button" onclick="submit_form(true);"> Submit </button><br><br>
+   <h4> Search by annotation </h4>
+    <select name = "categories">
+        <option value = "inform"> Inform </option>
+        <option value = "personal opinion"> Personal Opinion </option>
+        <option value = "crowdsourcing"> Crowd Sourcing </option>
+        <option value = "advice"> Advice </option>
+        <option value = "marketing"> Marketing </option>
+	<option value = "other/unsure"> Other/unsure </option>
+    </select> <br>
+    <input type="radio" name="lang" value="cn" > Chinese
+    <input type="radio" name="lang" value="en"> English <br>
+    <button type="button" onclick="submit_form(false);"> Submit </button><br><br>
+  </form> 
+  </div>    
+<div>
+  <div class="maintext" id="maintext" > 
+    <h1>Social Media Corpus on COVID-19</h1>    
+    <img src="https://raw.github.ubc.ca/MDS-CL-2019-20/Social_Media_Corpus_on_COVID-19/master/Image/wc_en.png?token=AAAAOLWX553QT2LLXJ4M2UK6QDVFC" alt="Twitter word cloud" width="500"
+    height="400">
+    <img src="https://raw.github.ubc.ca/MDS-CL-2019-20/Social_Media_Corpus_on_COVID-19/master/Image/wc_cn.png?token=AAAAOLV2NLQAREFQIYAGW2S6QDVES" alt="Weibo word cloud"width="500"
+    height="400"> <br><br><br>                                                                     
+    Welcome to our bilingual social media corpus collected from Twitter and Weibo in March 2020. <br> 
+    English tweets and Chinese Weibo posts related to COVID-19 are the focus of this corpus. <br>
+    The annotation is categorizing the intent of the post from the original poster (OP) into one of six categories: 
+    <ul>
+      <li><b>Advice</b> - any guidance or recommendations offered by OP (e.g., “Remember to wear masks.”).</li>
+      <li><b>Marketing</b> - promoting a business or product (e.g., “Buy coronavirus insurance!”).</li>
+      <li><b>Personal opinion</b></Personal> - any comments that expresses how OP feels (e.g., “My travel plans are shot.”).</li>
+      <li><b>Inform</b> - sharing of facts like information from the news (e.g., “Washington also announced another death.”).</li>
+      <li><b>Crowdsourcing</b> - asking the public for information (e.g., “What do you think about covid-19?”)</li>
+      <li><b>Other/unsure</b> - posts that do not fit into any other categorey above.</li>
+    </ul> 
+    <img src="https://raw.github.ubc.ca/MDS-CL-2019-20/Social_Media_Corpus_on_COVID-19/master/Image/twitter_viz.png?token=AAAAOLUKHMSLU4IYNWGAOQ26QDVF6" alt="Twitter annotation stats" width="500"
+         height="400">
+         <img src="https://raw.github.ubc.ca/MDS-CL-2019-20/Social_Media_Corpus_on_COVID-19/master/Image/weibo_viz.png?token=AAAAOLQE56JEOEJ26MICAVS6QDVGW" alt="Weibo annotation stats" width="500"
+         height="400"><br><br>
+    Please refer to the <a href="https://github.ubc.ca/MDS-CL-2019-20/Social_Media_Corpus_on_COVID-19/blob/master/Corpus/Annotation_Guidelines.md">annotation guideline </a>to learn more about our annotation method. <br><br>  
+    
+    <h3>Corpus statistics</h3>
+    <table border='1' cellpadding='5' cellspacing='5' width='700' text-align="right">
+      <tr>
+        <th>Statistic</th>
+        <th>Twitter</th>
+        <th>Weibo</th>
+      </tr>
+      <tr>
+        <td>Number of posts</td>
+        <td>48,656</td>
+        <td>4,566</td>
+      </tr>
+      <tr>
+        <td>Number of annotations</td>
+        <td>514</td>
+        <td>321</td>
+      </tr>
+      <tr>
+        <td>Number of tokens</td>
+        <td>1,343,207</td>
+        <td>528,954</td>
+      </tr>
+      <tr>
+        <td>Number of unique words</td>
+        <td>85,165</td>
+        <td>31,760</td>
+      </tr>
+      <tr>
+        <td>Metadata</td>
+        <td>tweet_id, language, created_at, source, region</td>
+        <td>language, created_at, source, region</td>
+      </tr>
+    </table> <br>
+    Please refer to the <a href="https://github.ubc.ca/MDS-CL-2019-20/Social_Media_Corpus_on_COVID-19/blob/master/Corpus/README.md">corpus readme </a>to learn more about the corpus. <br><br>  
+    </div> <br><br>                                                                   
+</div>
+</body>
+</html>

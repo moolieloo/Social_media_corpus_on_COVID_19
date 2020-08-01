@@ -1,0 +1,10 @@
+  
+ .sidebar { 
+    float:left; 
+    width:15%; 
+        } 
+
+.maintext { 
+    float:right; 
+    width:70%; 
+        }
